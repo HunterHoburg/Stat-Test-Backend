@@ -6,7 +6,7 @@ exports.seed = function(knex, Promise) {
 
     // Inserts seed entries
     knex('users').insert({
-      user_id: 1,
+      // user_id: 1,
       email: 'someguy@gmail.com',
       password: '1234',
       username: 'Game Dad',
@@ -14,7 +14,7 @@ exports.seed = function(knex, Promise) {
       color_2: '#86b4c7'
     }),
     knex('users').insert({
-      user_id: 2,
+      // user_id: 2,
       email: 'somegirl@gmail.com',
       password: '1234',
       username: 'Game Mom',
@@ -22,7 +22,7 @@ exports.seed = function(knex, Promise) {
       color_2: '#86c79c'
     }),
     knex('users').insert({
-      user_id: 3,
+      // user_id: 3,
       email: 'somedog@gmail.com',
       password: '1234',
       username: 'Game Dog',
